@@ -6,7 +6,7 @@ const app = require('../src/app');
 
 describe('Feathers application tests', function() {
     before(function(done) {
-        this.server = app.listen(process.env.PORT || 3030);
+        this.server = app.listen(process.env.PORT || 5000);
         this.server.once('listening', () => done());
     });
 
@@ -15,7 +15,7 @@ describe('Feathers application tests', function() {
     });
 
     it('starts and shows the index page', function(done) {
-        request('process.env.PORT', function(err, res, body) {
+        request('http://localhost:3030', function(err, res, body) {
             assert.ok(body.indexOf('<html>') !== -1);
             done(err);
         });
@@ -24,7 +24,7 @@ describe('Feathers application tests', function() {
     describe('404', function() {
         it('shows a 404 HTML page', function(done) {
             request({
-                url: 'http://localhost:/path/to/nowhere',
+                url: 'http://localhost:3030/path/to/nowhere',
                 headers: {
                     'Accept': 'text/html'
                 }
