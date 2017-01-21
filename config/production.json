@@ -1,7 +1,7 @@
 {
-    "host": "ec2-54-235-123-159.compute-1.amazonaws.com",
+    "host": "process.env.HOST",
     "port": "process.env.PORT",
-    "postgres": "postgres://cojpyqjmcmhuma:8619346845c847fee9a621a4f712be153d7530ad5180de98061abf4b8d0be20b@ec2-54-235-123-159.compute-1.amazonaws.com:5432/det1do4uiapg26",
+    "postgres": "process.env.DATABASE_URL",
     "public": "../public/",
     "auth": {
         "idField": "id",
