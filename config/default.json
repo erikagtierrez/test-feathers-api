@@ -1,13 +1,13 @@
 {
-  "host": "localhost",
-  "port": 3030,
-  "postgres": "postgres://postgres:@localhost:5432/herokutest",
-  "public": "../public/",
-  "auth": {
-    "idField": "id",
-    "token": {
-      "secret": "kUz3yp3QgfOEQeZOR6Fyuvoi+ULPYM0noM97Ee35BPYh7bDM1PrPM540dqGO6Q0hMtfdgc65DHC+IcpQrinyaQ=="
-    },
-    "local": {}
-  }
+    "host": "localhost",
+    "port": 3030,
+    "postgres": "postgres://cojpyqjmcmhuma:8619346845c847fee9a621a4f712be153d7530ad5180de98061abf4b8d0be20b@ec2-54-235-123-159.compute-1.amazonaws.com:5432/det1do4uiapg26",
+    "public": "../public/",
+    "auth": {
+        "idField": "id",
+        "token": {
+            "secret": "kUz3yp3QgfOEQeZOR6Fyuvoi+ULPYM0noM97Ee35BPYh7bDM1PrPM540dqGO6Q0hMtfdgc65DHC+IcpQrinyaQ=="
+        },
+        "local": {}
+    }
 }
