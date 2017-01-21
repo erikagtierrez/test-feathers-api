@@ -15,7 +15,7 @@ describe('Feathers application tests', function() {
     });
 
     it('starts and shows the index page', function(done) {
-        request('http://localhost:3030', function(err, res, body) {
+        request('process.env.PORT', function(err, res, body) {
             assert.ok(body.indexOf('<html>') !== -1);
             done(err);
         });
