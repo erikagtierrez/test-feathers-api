@@ -1,0 +1,28 @@
+{
+    "name": "herokutest",
+    "description": "Heroku example",
+    "version": "0.0.0",
+    "homepage": "",
+    "main": "src/",
+    "keywords": [
+        "feathers"
+    ],
+    "license": "MIT",
+    "repository": {},
+    "author": {},
+    "contributors": [],
+    "bugs": {},
+    "keywords": [
+        "example",
+        "heroku"
+    ],
+    "engines": {
+        "node": "4.1.1"
+    },
+    "scripts": {
+        "test": "npm run jshint && npm run mocha",
+        "jshint": "jshint src/. test/. --config",
+        "start": "node src/",
+        "mocha": "mocha test/ --recursive"
+    }
+}

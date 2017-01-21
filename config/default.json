@@ -1,0 +1,13 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "postgres": "postgres://postgres:@localhost:5432/herokutest",
+  "public": "../public/",
+  "auth": {
+    "idField": "id",
+    "token": {
+      "secret": "kUz3yp3QgfOEQeZOR6Fyuvoi+ULPYM0noM97Ee35BPYh7bDM1PrPM540dqGO6Q0hMtfdgc65DHC+IcpQrinyaQ=="
+    },
+    "local": {}
+  }
+}
