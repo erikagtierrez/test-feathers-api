@@ -1,6 +1,6 @@
-# herokutest
+# Feathers API (froppings short version)
 
-> Heroku example
+> University project
 
 ## About
 
